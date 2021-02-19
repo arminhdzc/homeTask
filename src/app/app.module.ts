@@ -16,7 +16,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SignupComponent } from './signup/signup.component';
+import { RegisterComponent } from './register/register.component';
 import { MatDatepickerModule} from '@angular/material/datepicker';
 import {HttpClientModule} from '@angular/common/http';
 import { UsersComponent } from './users/users.component';
@@ -27,7 +27,7 @@ import {MatListModule} from '@angular/material/list';
   declarations: [
     AppComponent,
     LoginComponent,
-    SignupComponent,
+    RegisterComponent,
     UsersComponent
   ],
   imports: [
