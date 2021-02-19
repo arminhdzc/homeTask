@@ -1,0 +1,42 @@
+.my-card   {
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  justify-content: center;
+  align-content: center;
+}
+mat-card{
+  top: 20%;
+}
+#form{
+  box-shadow: none;
+}
+span{
+  align-content: center;
+  margin: auto;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: 	#707070;
+}
+mat-label{
+  justify-content: center;
+  display: flex;
+}
+.full-width {
+  width: 100%;
+}
+
+mat-card-actions {
+  align-content: center;
+  margin: auto;
+  justify-content: center;
+}
+@media(max-width: 760px) {
+  .mat-card {
+    width: 90%;
+    margin: auto;
+  }
+}

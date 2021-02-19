@@ -1,0 +1,34 @@
+.my-form, .my-card {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+mat-card{
+  top: 20%;
+}
+
+mat-card-actions {
+  align-content: center;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+#login {
+  align-content: center;
+  margin: auto;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 40px;
+  color: 	#707070;
+}
+@media(max-width: 760px) {
+  .my-form, .my-card  {
+    width: 90%;
+    margin: auto;
+  }
+}

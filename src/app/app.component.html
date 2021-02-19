@@ -1,0 +1,27 @@
+<mat-toolbar color="primary" class="expanded-toolbar">
+
+  <div fxLayout="row" fxShow="false" fxShow.gt-sm>
+
+    <button mat-button routerLink="/register">
+      Sign up
+      <mat-icon>drive_file_rename_outline</mat-icon>
+    </button>
+
+    <button mat-button routerLink="/login">
+      Login
+      <mat-icon>login</mat-icon>
+    </button>
+
+    <button mat-button routerLink="/users">
+      Users List
+      <mat-icon>supervisor_account</mat-icon>
+    </button>
+
+
+  </div>
+
+</mat-toolbar>
+
+
+
+<router-outlet></router-outlet>
