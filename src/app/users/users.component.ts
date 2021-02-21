@@ -11,13 +11,20 @@ export class UsersComponent implements OnInit {
   users = [];
 
   constructor(public userService: UserService) {
-    this.users = this.userService.getUser();
+
+    
   }
 
 
   ngOnInit(): void {
-    console.log('Users', this.users);
+    console.log('hi')
+    var that = this;
+    this.userService.getUser().then(function (response) {
+      that.users = response.data.data;
+    })
+    .catch(function (error) {
+      console.log(error)
+      alert("There was an error")
+    });
   }
-
-
 }
