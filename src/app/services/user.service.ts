@@ -14,6 +14,10 @@ export class UserService {
     return axios.get(this.BASE_URL + 'users');
   }
 
+  getUserDetails(id): any {
+    return axios.get(this.BASE_URL + 'users/' + id);
+  }
+
   login(email, password): any {
     return axios.post(this.BASE_URL + 'login', {
       email: email,

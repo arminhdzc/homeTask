@@ -1,9 +1,9 @@
-<mat-card pa-2>
+<mat-card>
   <mat-card-title>List of users:</mat-card-title>
   <mat-card-content>
     <mat-list role="list">
       <div *ngFor="let user of users">
-        <mat-list-item role="listitem">{{user.first_name}} {{user.last_name}}</mat-list-item>
+        <mat-list-item role="listitem" routerLink="{{user.id}}">{{user.first_name}} {{user.last_name}}</mat-list-item>
       </div>
     </mat-list>
   </mat-card-content>

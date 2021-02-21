@@ -21,6 +21,7 @@ import { MatDatepickerModule} from '@angular/material/datepicker';
 import {HttpClientModule} from '@angular/common/http';
 import { UsersComponent } from './users/users.component';
 import {MatListModule} from '@angular/material/list';
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import {MatListModule} from '@angular/material/list';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    UsersComponent
+    UsersComponent,
+    UserDetailsComponent
   ],
   imports: [
     BrowserModule,
